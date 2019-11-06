@@ -29,7 +29,7 @@ This is the repository of __Extending the Statistical Toolbox__ @ BSI PhD-Day 20
 
 ### brms specific
 
-- [Overview of brms](Toward a principled Bayesian workflow in cognitive science)
+- [Overview of brms](https://cran.r-project.org/web/packages/brms/vignettes/brms_overview.pdf)
 - [another one](https://cran.r-project.org/web/packages/brms/vignettes/brms_multilevel.pdf)
 - [and a very practical one](https://cran.r-project.org/web/packages/brms/vignettes/brms_multilevel.pdf)
 - [Model families](https://cran.r-project.org/web/packages/brms/vignettes/brms_families.html#beta-models and https://rdrr.io/cran/brms/man/brmsfamily.html)
