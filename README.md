@@ -32,7 +32,7 @@ This is the repository of __Extending the Statistical Toolbox__ @ BSI PhD-Day 20
 - [Overview of brms](https://cran.r-project.org/web/packages/brms/vignettes/brms_overview.pdf)
 - [another one](https://cran.r-project.org/web/packages/brms/vignettes/brms_multilevel.pdf)
 - [and a very practical one](https://cran.r-project.org/web/packages/brms/vignettes/brms_multilevel.pdf)
-- [Model families 1](https://cran.r-project.org/web/packages/brms/vignettes/brms_families.html#beta-models and https://rdrr.io/cran/brms/man/brmsfamily.html)
+- [Model families 1](https://cran.r-project.org/web/packages/brms/vignettes/brms_families.html#beta-models)
 - [Model families 2](https://rdrr.io/cran/brms/man/brmsfamily.html)
 
 
