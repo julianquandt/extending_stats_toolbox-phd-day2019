@@ -1,1 +1,58 @@
 # extending_stats_toolbox-phd-day2019
+
+# Content
+
+This is the repository of __Extending the Statistical Toolbox__ @ BSI PhD-Day 2019.
+
+1. The PowerPoint Slides as PPTX and PDF
+1. `R`-code producing the plots used on the slides
+1. Additional material (`R`-code and rendered .html version) on Bayesian Mixed-Effects Models in `brms`. The material has more information than is mentioned on the slides. More extensive slides on this topic (that contain all the topics mentioned in the material) can be found [HERE](https://github.com/julianquandt/brms-intro-SIPS2019).
+
+[__Download all files__](https://github.com/julianquandt/extending_stats_toolbox-phd-day2019/archive/master.zip)
+
+# Reading List
+
+## Introduction to Bayesian Statistics
+
+### Books
+
+- [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) <-- This is a must-read IMO!
+    - [If you read it, here is additional material on how to do all the exercises in brms](https://bookdown.org/ajkurz/Statistical_Rethinking_recoded/)
+- [Doing Bayesian Data Analysis](https://www.elsevier.com/books/doing-bayesian-data-analysis/kruschke/978-0-12-405888-0)
+- [Bayesian Data Analysis: The Bible of Bayesian Data Analysis](http://www.stat.columbia.edu/~gelman/book/)
+
+### Papers and Tutorials
+
+- [How to become a Bayesian in eight easy steps: An annotated reading list](https://link.springer.com/article/10.3758/s13423-017-1317-5)
+
+## On the topics mentioned in the presentation
+
+### Critique of current implementation of NHST
+
+- [The Statistical Significance Filter Leads to Overoptimistic Expectations of Replicability](https://www.sciencedirect.com/science/article/pii/S0749596X18300640)
+- [Redefine Statistical Significance](https://www.nature.com/articles/s41562-017-0189-z)
+- [Abandon Statistical Significance](https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1527253)
+- [Why Psychologists Must Change the Way They Analyze Their Data](https://www.ejwagenmakers.com/2011/WagenmakersEtAl2011_JPSP.pdf)
+- [A Practical Solution to the Pervasive Problems with p values](https://www.ejwagenmakers.com/2007/pValueProblems.pdf)
+
+### Why Bayes Factors are Better...
+
+- [The philosophy of Bayes factors and the quantification of statistical evidence](http://www.philos.rug.nl/~romeyn/paper/2015_morey_et_al_-_bayes_factors.pdf)
+- [Sequential hypothesis testing with Bayes factors: Efficiently testing mean differences](https://www.ncbi.nlm.nih.gov/pubmed/26651986)
+- [How Bayes factors change scientific practice](https://www.sciencedirect.com/science/article/pii/S0022249615000607)
+
+### ...But why they are Not
+
+- [Avoiding Model Selection in Bayesian Social Research](http://www.stat.columbia.edu/%7Egelman/research/published/avoiding.pdf)
+- [Dance of the Bayes factors ](http://daniellakens.blogspot.com/2016/07/dance-of-bayes-factors.html)
+- [Incorporating Bayes factor into my understanding of scientific information and the replication crisis](https://statmodeling.stat.columbia.edu/2018/03/10/incorporating-bayes-factor-understanding-scientific-information-replication-crisis/)
+- [If you think p-values are problematic, wait until you understand Bayes Factors](http://datacolada.org/78a)
+- [Bayes Factors bias the estimate when using](http://www.timvanderzee.com/sequential-sampling-with-bayes-factors-effects-on-error-rates-and-parameter-bias/)
+
+
+### Beyond NHST and Bayes Factors
+
+- [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) <-- Again read this!
+- [Choosing Prediction Over Explanation in Psychology: Lessons From Machine Learning](https://www.ncbi.nlm.nih.gov/pubmed/28841086)
+- [It’s not so hard to move away from hypothesis testing and toward a Bayesian approach of “embracing variation and accepting uncertainty.”](https://statmodeling.stat.columbia.edu/2017/04/05/not-hard-move-away-hypothesis-testing-toward-bayesian-approach-embracing-variation-accepting-uncertainty-actually-approach-easier-approach/)
+- [Increasing Transparency Through a Multiverse Analysis.](https://www.ncbi.nlm.nih.gov/pubmed/27694465)
