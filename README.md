@@ -41,6 +41,7 @@ More extensive slides on this topic (that contain all the topics mentioned in th
 
 ### Critique of current implementation of NHST
 
+- [False Positive Psychology](https://journals.sagepub.com/doi/10.1177/0956797611417632)
 - [The Statistical Significance Filter Leads to Overoptimistic Expectations of Replicability](https://www.sciencedirect.com/science/article/pii/S0749596X18300640)
 - [Redefine Statistical Significance](https://www.nature.com/articles/s41562-017-0189-z)
 - [Abandon Statistical Significance](https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1527253)
@@ -81,7 +82,7 @@ More extensive slides on this topic (that contain all the topics mentioned in th
 - [It’s not so hard to move away from hypothesis testing and toward a Bayesian approach of “embracing variation and accepting uncertainty.”](https://statmodeling.stat.columbia.edu/2017/04/05/not-hard-move-away-hypothesis-testing-toward-bayesian-approach-embracing-variation-accepting-uncertainty-actually-approach-easier-approach/)
 - [Increasing Transparency Through a Multiverse Analysis.](https://www.ncbi.nlm.nih.gov/pubmed/27694465)
 - [Moving Towards the Post p < 0.05 Era via the Analysis of Credibility](https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1543136)
-
+- [Example paper only reporting posteriors](https://pure.uva.nl/ws/files/29892079/jdm18228.pdf)
 
 ## Stay Tuned
 
