@@ -6,7 +6,7 @@ This is the repository of __Extending the Statistical Toolbox__ @ BSI PhD-Day 20
 
 1. The PowerPoint Slides as PPTX and PDF
 1. `R`-code producing the plots used on the slides
-1. Additional material (`R`-code and ready-to-read .html version) on Bayesian Mixed-Effects Models in `brms`. The material has more information than is mentioned on the slides. 
+1. Additional material (`R`-code and ready-to-read .html version) on Bayesian Mixed-Effects Models in `brms`. The material has more information than is mentioned on the slides.
 More extensive slides on this topic (that contain all the topics mentioned in the material) can be found [HERE](https://github.com/julianquandt/brms-intro-SIPS2019).
 
 [__Download all files__](https://github.com/julianquandt/extending_stats_toolbox-phd-day2019/archive/master.zip)
@@ -88,4 +88,4 @@ More extensive slides on this topic (that contain all the topics mentioned in th
 - [Andrew Gelman's blog (mainly arguing that we do everything wrong)](https://statmodeling.stat.columbia.edu/)
 - [JASP blog by Wagenmakers and co. (stuff on Bayes Factors and open science)](https://www.bayesianspectacles.org/)
 - [Solomon Kurz' blog (lots of fun bayesian stuff)](https://solomonkurz.netlify.com/post/)
-- On twitter follow [Richard McElreath](https://twitter.com/rlmcelreath?lang=en), [EJ Wagenmakers](https://twitter.com/EJWagenmakers), [Paul Bürkner](https://twitter.com/paulbuerkner), [Matti Vuorre](https://twitter.com/vuorre)
+- On twitter follow [EJ Wagenmakers](https://twitter.com/EJWagenmakers), [Paul Bürkner](https://twitter.com/paulbuerkner), [Matti Vuorre](https://twitter.com/vuorre), [Shravan Vasishth](https://twitter.com/shravanvasishth), [Richard McElreath](https://twitter.com/rlmcelreath?lang=en)
