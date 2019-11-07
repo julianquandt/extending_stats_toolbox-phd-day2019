@@ -80,3 +80,11 @@ This is the repository of __Extending the Statistical Toolbox__ @ BSI PhD-Day 20
 - [It’s not so hard to move away from hypothesis testing and toward a Bayesian approach of “embracing variation and accepting uncertainty.”](https://statmodeling.stat.columbia.edu/2017/04/05/not-hard-move-away-hypothesis-testing-toward-bayesian-approach-embracing-variation-accepting-uncertainty-actually-approach-easier-approach/)
 - [Increasing Transparency Through a Multiverse Analysis.](https://www.ncbi.nlm.nih.gov/pubmed/27694465)
 - [Moving Towards the Post p < 0.05 Era via the Analysis of Credibility](https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1543136)
+
+
+## Stay Tuned
+
+- [Andrew Gelman's blog](https://statmodeling.stat.columbia.edu/)
+- [JASP blog by Wagenmakers and co.](https://www.bayesianspectacles.org/)
+- [a lot of cool bayesian stuff](https://solomonkurz.netlify.com/post/)
+- On twitter follow [Richard McElreath](https://twitter.com/rlmcelreath?lang=en), [EJ Wagenmakers](https://twitter.com/EJWagenmakers), [Paul Bürkner](https://twitter.com/paulbuerkner), [Matti Vuorre](https://twitter.com/vuorre)
