@@ -84,7 +84,7 @@ This is the repository of __Extending the Statistical Toolbox__ @ BSI PhD-Day 20
 
 ## Stay Tuned
 
-- [Andrew Gelman's blog](https://statmodeling.stat.columbia.edu/)
-- [JASP blog by Wagenmakers and co.](https://www.bayesianspectacles.org/)
-- [a lot of cool bayesian stuff](https://solomonkurz.netlify.com/post/)
+- [Andrew Gelman's blog (mainly arguing that we do everything wrong)](https://statmodeling.stat.columbia.edu/)
+- [JASP blog by Wagenmakers and co. (stuff on Bayes Factors and open science)](https://www.bayesianspectacles.org/)
+- [Solomon Kurz' blog (lots of fun bayesian stuff)](https://solomonkurz.netlify.com/post/)
 - On twitter follow [Richard McElreath](https://twitter.com/rlmcelreath?lang=en), [EJ Wagenmakers](https://twitter.com/EJWagenmakers), [Paul Bürkner](https://twitter.com/paulbuerkner), [Matti Vuorre](https://twitter.com/vuorre)
