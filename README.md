@@ -61,7 +61,7 @@ This is the repository of __Extending the Statistical Toolbox__ @ BSI PhD-Day 20
 - [Dance of the Bayes factors ](http://daniellakens.blogspot.com/2016/07/dance-of-bayes-factors.html)
 - [Incorporating Bayes factor into my understanding of scientific information and the replication crisis](https://statmodeling.stat.columbia.edu/2018/03/10/incorporating-bayes-factor-understanding-scientific-information-replication-crisis/)
 - [If you think p-values are problematic, wait until you understand Bayes Factors](http://datacolada.org/78a)
-- [Bayes Factors bias the estimate when using](http://www.timvanderzee.com/sequential-sampling-with-bayes-factors-effects-on-error-rates-and-parameter-bias/)
+- [Bayes Factors bias the estimate when using them in sequential sampling](http://www.timvanderzee.com/sequential-sampling-with-bayes-factors-effects-on-error-rates-and-parameter-bias/)
 - [The Default Bayesian Test is Prejudiced Against Small Effects](http://datacolada.org/35)
 
 
