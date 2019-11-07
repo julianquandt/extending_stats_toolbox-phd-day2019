@@ -6,7 +6,8 @@ This is the repository of __Extending the Statistical Toolbox__ @ BSI PhD-Day 20
 
 1. The PowerPoint Slides as PPTX and PDF
 1. `R`-code producing the plots used on the slides
-1. Additional material (`R`-code and rendered .html version) on Bayesian Mixed-Effects Models in `brms`. The material has more information than is mentioned on the slides. More extensive slides on this topic (that contain all the topics mentioned in the material) can be found [HERE](https://github.com/julianquandt/brms-intro-SIPS2019).
+1. Additional material (`R`-code and ready-to-read .html version) on Bayesian Mixed-Effects Models in `brms`. The material has more information than is mentioned on the slides. 
+More extensive slides on this topic (that contain all the topics mentioned in the material) can be found [HERE](https://github.com/julianquandt/brms-intro-SIPS2019).
 
 [__Download all files__](https://github.com/julianquandt/extending_stats_toolbox-phd-day2019/archive/master.zip)
 

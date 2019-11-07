@@ -1,0 +1,100 @@
+---
+title: "R-code used in Part I"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+author: "Julian Quandt"
+output: html_document
+highlight: github
+---
+
+
+```{r setup, include=FALSE}
+require(knitr)
+require(BayesFactor)
+knitr::opts_chunk$set(echo =T, warning = F, cache = F)
+options(width = 80)
+options(scipen = 10)
+devAskNewPage(ask = FALSE)
+```
+
+# Slide 10 - Bayes Factor Calculation 
+
+To calculate a Bayes Factor in this toy example (we would never really do it like this but use the `BayesFactor` package instead), we calculate the probability that we observe 60 women out of 100 people under h0 (first line of code), then we calculate it for H1 by calculating its probability for anything between 0 and 1. 
+Then, we marignalize the porbabilities for the alternative by dividing the sum of these probabilities by the number of probabilities that we tried.
+Third, we compare these probabilities.
+
+```{r bf_calc}
+h0 <- dbinom(60,100,0.5)  # get the probability of the data (i.e. 60 women) under H0
+h1 <- dbinom(60, 100, seq(0,1, length.out = 1e6))  # probability of the data under H1 = uniform prior
+h1_p <- sum(h1)/length(h1)  # marginalize the probabilities under H1
+h0/h1_p # Bayes Factor of H0 over H1
+```
+
+
+# Slide 12 - sequential plots for p-value and Bayes Factor if H0 is true
+
+```{r plot_h0}
+
+set.seed(111) # make plot reproducible
+g1 <- c() # create group 1
+g2 <- c() # create group 2
+pval_vec <- c() # collection of p-values
+bf_vec <- c() # collection of BFs
+for(i in 1:1000){
+  g1_add <- rnorm(10,10,5) # add 10 participants to group 1
+  g2_add <- rnorm(10,10,5) # add 10 participants to group 2
+  g1 <- append(g1, g1_add)
+  g2 <- append(g2, g2_add)
+  pval <- t.test(g1,g2,paired = F, equal.var = T)$p.value # get p-value for current sample and store
+  pval_vec <- append(pval_vec, pval) 
+  bfac <- exp(ttestBF(g1,g2, paired = F)@bayesFactor$bf)# get BF for current sample and store (is returned as log-bf therefore exponentiate)
+  bf_vec <- append(bf_vec, bfac)
+}
+
+
+n_test <- seq(10,1e4, by = 10) # x-axis for plot
+
+# plot p-values
+plot(n_test, pval_vec, main = "p-value if H0 is true", xlab = "sample size", ylab = "p-value")
+abline(h = .05)
+
+# plot BF
+bf_vec_plot <- ifelse(bf_vec < 1, (1/bf_vec), -bf_vec) # convert BFs in favor of H1 from fractions to negative numbers
+plot(n_test, bf_vec_plot, main = "Bayes Factor if H0 is true", xlab = "sample size", ylab = "Bayes Factor in favor of H0")
+abline(h = 3, col = "green", lwd = 2)
+abline(h = -3, col = "red", lwd = 2)
+
+```
+
+# Slide 13 - seqeuntial plots for p-value and Bayes Factor for d = .20
+
+```{r plot_h1}
+
+set.seed(999) # make plot reproducible
+
+g3 <- c() # create group 1
+g4 <- c() # create group 2
+pval_vec2 <- c()
+bf_vec2 <- c()
+for(i in 1:1000){
+  g3_add <- rnorm(10,11,5) # add 10 participants to group 1
+  g4_add <- rnorm(10,10,5) # add 10 participants to group 2
+  g3 <- append(g3, g3_add)
+  g4 <- append(g4, g4_add)
+  pval <- t.test(g3,g4,paired = F, equal.var = T)$p.value # get p-value for current sample and store
+  pval_vec2 <- append(pval_vec2, pval)
+  bfac <- exp(ttestBF(g3,g4, paired = F)@bayesFactor$bf) # get BF for current sample and store (is returned as log-bf therefore exponentiate)
+  bf_vec2 <- append(bf_vec2, bfac)
+}
+
+bf_vec2_plot <- ifelse(bf_vec2 < 1, -(1/bf_vec2), bf_vec2)
+
+# plot p-values
+plot(n_test[1:50], pval_vec2[1:50], main = "p-value for small effect of d = .20", xlab = "sample size", ylab = "p-value")
+abline(h = .05)
+
+# plot BF
+plot(n_test[1:50], bf_vec2_plot[1:50], main = "Bayes Factor for small effect of d = .20", xlab = "sample size", ylab = "Bayes Factor")
+abline(h = 3, col = "green", lwd = 2)
+abline(h = -3, col = "red", lwd = 2)
+```
+
