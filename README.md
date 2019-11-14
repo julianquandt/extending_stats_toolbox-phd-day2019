@@ -77,6 +77,7 @@ More extensive slides on this topic (that contain all the topics mentioned in th
 
 ### Beyond NHST and Bayes Factors
 
+- [How to embrace variation and accept uncertainty](https://psyarxiv.com/zcf8s/)
 - [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) <-- Again read this!
 - [Choosing Prediction Over Explanation in Psychology: Lessons From Machine Learning](https://www.ncbi.nlm.nih.gov/pubmed/28841086)
 - [It’s not so hard to move away from hypothesis testing and toward a Bayesian approach of “embracing variation and accepting uncertainty.”](https://statmodeling.stat.columbia.edu/2017/04/05/not-hard-move-away-hypothesis-testing-toward-bayesian-approach-embracing-variation-accepting-uncertainty-actually-approach-easier-approach/)
